@@ -60,7 +60,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '(☞ﾟ∀ﾟ)☞'
+global.packname = ';) Ỽìʍմҟէհì'
 global.author = '𝓜𝓻.𝓥𝓲𝓶𝓾𝓴𝓽𝓱𝓲'
 
 global.wm = '𝒗𝒊𝒎𝒖𝒌𝒕𝒉𝒊 𝒐𝒔𝒉𝒂𝒅𝒂'
