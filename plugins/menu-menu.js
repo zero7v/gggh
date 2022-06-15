@@ -63,13 +63,13 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
+*ミ💖 Hellow ✨${name}✨,𝓩𝓮𝓻𝓸-𝓜𝓭 𝓒𝓸𝓶𝓶𝓪𝓷𝓭 𝓛𝓲𝓼𝓽 💖彡*
 
-*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
-*📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
-*📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}*
+*📅 DATE/TIME: ${week}, ${date}*
+*📈 TEMP: ${uptime}*
+*📊 USER: ${rtotalreg}*
 
-*<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
+*<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝕫𝕖𝕣𝕠 𝔹𝕆𝕋/>*
 
 ° ඬ ⃟ 💟 _${usedPrefix}grupos_
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
@@ -441,7 +441,7 @@ throw e
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menucompleto|menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
+handler.command = /^(menucompleto|menu|menú|memu|memú|help|info|comandos|allmenu|zero|menu1.2|ayuda|commands|commandos|m|\?)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
